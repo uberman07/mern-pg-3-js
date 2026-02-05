@@ -1,0 +1,21 @@
+// for loop
+// while loop
+// for in - object
+// for of - array
+// do while 
+
+const friends = ['elon', 'bill', 'mark', 'john'];
+for(const friend of friends){
+    // console.log(friend);
+}
+
+for(let i = 0; i < friends.length; i++){
+    console.log(i)
+    console.log(friends[i])
+}
+
+let i = 0;
+while(i < friends.length){
+    console.log(friends[i]);
+    i++;
+}
